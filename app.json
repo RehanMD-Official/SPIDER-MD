@@ -1,0 +1,21 @@
+{
+  "name": "SPIDER-MD",
+  "description": "SPIDER-MD WhatsApp bot made by Rehan-MD Official",
+  "logo": "https://ibb.co/67Q2HCxq",
+  "keywords": ["bot","SPIDER-MD","Rehan-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the Spider-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
